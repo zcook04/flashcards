@@ -5,8 +5,6 @@ import pandas as pd
 import openpyxl
 from openpyxl import load_workbook
 import xlsxwriter
-import pkg_resources.py2_warn #needed to compile to exe.
-import py2exe
 
 root = Tk()
 root.title("Flashcards")
